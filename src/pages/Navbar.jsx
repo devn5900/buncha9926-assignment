@@ -3,7 +3,6 @@ import {BsCart} from 'react-icons/bs'
 import { useSelector } from 'react-redux'
 const Navbar = () => {
   const {cart} = useSelector(store=>store.reducer);
-
   return (
     <div className='  xs:bg-white sm:bg-white top-0 flex items-center justify-between xs:pt-5 sm:pt-5 lg:py-7 px-7 lg:bg-[#FFE475]'>
         <div>
